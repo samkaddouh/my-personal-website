@@ -3,6 +3,7 @@ import { Footer } from "./components/footer"
 import { ThemeProvider } from "./components/theme-provider"
 import { Orbitron } from "next/font/google"
 import "./globals.css"
+import { Analytics } from "@vercel/analytics/react"
 
 const orbitron = Orbitron({
   subsets: ["latin"],
@@ -12,8 +13,8 @@ const orbitron = Orbitron({
 })
 
 export const metadata = {
-  title: "Sam Kadouh Portfolio",
-  description: "Personal portfolio of Sam Kadouh",
+  title: "Sam",
+  description: "Portfolio of Sam Kadouh",
 }
 
 export default function RootLayout({ children }) {
@@ -22,7 +23,9 @@ export default function RootLayout({ children }) {
       <body className={`${orbitron.variable} bg-background text-foreground min-h-screen flex flex-col`}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <MainNavbar />
-          <main className="flex-grow">{children}</main>
+          <main className="flex-grow">{children}
+          <Analytics />
+          </main>
           <Footer />
         </ThemeProvider>
       </body>
