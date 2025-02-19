@@ -3,7 +3,8 @@ import { Footer } from "./components/footer"
 import { ThemeProvider } from "./components/theme-provider"
 import { Orbitron } from "next/font/google"
 import "./globals.css"
-import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from '@vercel/speed-insights/next'
+
 
 const orbitron = Orbitron({
   subsets: ["latin"],
@@ -25,6 +26,7 @@ export default function RootLayout({ children }) {
           <MainNavbar />
           <main className="flex-grow">{children}
           <Analytics />
+          <SpeedInsights />
           </main>
           <Footer />
         </ThemeProvider>
