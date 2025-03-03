@@ -14,6 +14,8 @@ export default function Projects() {
       description:
         "Created a modern, responsive website for Skies Shipping & Clearing, a company offering international shipping and customs clearance services. The website features a clean, professional design with a blue color scheme, highlighting the company's main services: Sea Freight, Freight Forwarding, Air Freight, and International Shipping. The site includes a homepage with a hero section, services overview, solutions, and a call-to-action, individual pages for each service, a dedicated 'Get a Quote' page with a comprehensive quote request form, and a contact page with company information and a contact form. The website is built with a component-based architecture, making it easy to maintain and scale. It's also optimized for performance and SEO, thanks to Next.js's built-in features.",
       technologies: ["React", "Next.js", "Tailwind CSS", "JavaScript", "Responsive Design", "SEO Optimization"],
+      github: "https://github.com/samkaddouh/skies-website-final", // Add the GitHub link
+      website: "https://www.skies-lb.com", // Add the live website link
     },
     {
       title: "Beads n Beyond E-commerce Website",
@@ -44,8 +46,8 @@ export default function Projects() {
                   ))}
                 </div>
 
-                <div className="flex justify-center mt-4">
-                  {project.github ? (
+                <div className="flex justify-center mt-4 gap-4">
+                  {project.github && (
                     <Link
                       href={project.github}
                       target="_blank"
@@ -54,8 +56,16 @@ export default function Projects() {
                     >
                       View on GitHub
                     </Link>
-                  ) : (
-                    <p className="italic text-muted-foreground">Under Production</p>
+                  )}
+                  {project.website && (
+                    <Link
+                      href={project.website}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-block px-3 py-1 text-sm bg-secondary text-secondary-foreground rounded-md hover:bg-secondary/90 transition-colors"
+                    >
+                      View Website
+                    </Link>
                   )}
                 </div>
               </div>
@@ -66,4 +76,3 @@ export default function Projects() {
     </div>
   )
 }
-
