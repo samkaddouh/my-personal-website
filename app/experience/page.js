@@ -2,7 +2,7 @@ export default function Experience() {
     const experiences = [
       {
         startDate: "October 2024",
-        endDate: "Present",
+        endDate: "March 2025",
         title: "Software Engineer",
         company: "Stealth Startup",
         department: "Backend",
