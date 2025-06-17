@@ -22,31 +22,29 @@ export default function About() {
 
         <div className="space-y-12">
           <p className="text-xl leading-relaxed">
-          I am a recent graduate of Columbia University, where I earned a Master’s degree in Applied Analytics. I also hold a Bachelor’s degree in Electrical & Computer Engineering from 
-          Brunel University London. My fascination with software development and network communication has driven me to explore how systems interact and evolve. 
-          I’ve always enjoyed the challenges that come with technology, and I take pride in the journey of learning and problem-solving.
+          I’m a recent graduate of Columbia University with a Master’s in Applied Analytics, and I hold a Bachelor’s degree in Electrical & Computer Engineering from Brunel University London. 
+          My passion lies in solving real-world problems through data. Over the past few years, I’ve honed my skills in data analysis, machine learning, and backend development to build intelligent systems 
+          that deliver business value.
           </p>
 
           <div className="space-y-6">
             <p className="text-lg leading-relaxed">
-            I started my web development journey by educating myself HTML, CSS, and JavaScript to build strong frontend foundations. Over time, I transitioned to industry-standard 
-            frameworks like React, Next.js, and TailwindCSS to create more dynamic and scalable applications. When I set my mind to something, I commit fully and get it done.
+            My journey began with web development—learning HTML, CSS, and JavaScript—but quickly evolved into building more dynamic and data-driven applications using React, Next.js, and serverless 
+            technologies. Alongside this, I developed a deep interest in data engineering and analytics workflows, working on projects involving APIs, automation, and natural language processing.
             </p>
 
             <p className="text-lg leading-relaxed">
-            Beyond coding, I have an entrepreneurial spirit and a passion for creating solutions that simplify people’s lives and address unmet market needs. I believe that 
-            every problem has a solution and the real challenge lies in identifying the problem itself. At Columbia, I refined my machine learning and business analytics skills, 
-            learning how to leverage data to drive impactful business decisions. My hands-on experience with various projects has 
-            shaped my understanding of how companies utilize analytics to make informed decisions.
+            At Columbia, I focused on mastering statistical modeling, predictive analytics, and data storytelling. I’ve built machine learning models for financial fraud detection, performed sentiment 
+            analysis on social media data, and automated multi-platform workflows using cloud-based tools. One of my key projects, Tweel, is a sentiment analysis tool designed to surface emotional context 
+            behind trending Twitter topics—giving users a clearer view of global discourse.
             </p>
 
             <p className="text-lg leading-relaxed">
-            One of my key projects, Tweel, is an application currently in development that aims to provide a new way to understand trending topics on Twitter. Instead of just 
-            highlighting the most discussed subjects, Tweel offers insight into the general sentiment surrounding them. This feature helps shape global perspectives, giving communities 
-            a better understanding of how different topics are being perceived around the world.
+            I’m especially drawn to roles where I can bridge the gap between raw data and business strategy—turning numbers into actionable insights. I believe the real challenge isn’t just solving a problem, 
+            but defining it well.
             </p>
             <p className="text-lg leading-relaxed">
-            Outside of tech, I enjoy reading, running, and playing chess and tennis. I also love exploring NYC’s vibrant food and coffee scene and occasionally unwinding with a night out.
+            Outside of work, I love reading, playing tennis and chess, running, and exploring NYC’s food and coffee scene.
             </p>
           </div>
 
