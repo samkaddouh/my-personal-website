@@ -74,7 +74,7 @@ export default function Experience() {
       {
         startDate: "September 2021",
         endDate: "February 2023",
-        title: "Web-App Developer & Researcher",
+        title: "Data Analyst & NLP Engineer",
         company: "Brunel University London",
         department: "Department of Research & Development",
         description:
@@ -84,12 +84,24 @@ export default function Experience() {
       {
         startDate: "October 2020",
         endDate: "September 2021",
-        title: "Software Engineering Intern",
+        title: "Business Data Analyst",
         company: "Money Expert",
-        department: "Full-Stack",
+        department: "Business Intelligence",
         description:
-          "Worked closely with UI/UX designers, developers, and systems analysts to build and optimize React Native mobile applications. Conducted code reviews on GitHub, which enhanced code quality and led to a 20% reduction in post-deployment issues. Collaborated with the Business Intelligence team to manage and optimize data workflows, leveraging SQL to streamline financial reporting processes. ",
-        technologies: ["Mobile App Development", "React Native", "UI/UX", "Github", "Javascript", "SQL", "Docker", "CI/CD"],
+          "As a Business Data Analyst in the Business Intelligence team, I focused on delivering data-driven insights to enhance user engagement and improve business operations. I analyzed app usage and user behavior, helping guide UI/UX improvements that increased mobile engagement by 30%. I also applied market research techniques to design user surveys, then used Python, SQL, and Tableau to analyze results, revealing key patterns and user segments. My work included building automated SQL-based pipelines for financial reporting and applying regression and clustering models to support product and marketing strategies. ",
+        technologies: [
+          "SQL", 
+          "Python", 
+          "Pandas", 
+          "Tableau", 
+          "Power BI", 
+          "Survey Design", 
+          "Regression Analysis", 
+          "Clustering", 
+          "Market Research", 
+          "Data Visualization", 
+          "PostgreSQL"
+        ],
       },
       
     ]
