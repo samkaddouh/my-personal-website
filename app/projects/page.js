@@ -16,13 +16,7 @@ export default function Projects() {
       technologies: ["React", "Next.js", "Tailwind CSS", "JavaScript", "Responsive Design", "SEO Optimization"],
       github: "https://github.com/samkaddouh/skies-website-final", // Add the GitHub link
       website: "https://www.skies-lb.com", // Add the live website link
-    },
-    {
-      title: "Beads n Beyond E-commerce Website",
-      description:
-        "Created a responsive e-commerce website for Beads n Beyond, a jewelry brand specializing in beaded accessories. The website features a clean, modern design with sections for featured products, best sellers, and category navigation. The site includes a promotional banner, navigation header with logo and cart, hero section with a captivating tagline, product showcase sections, and category quick links. This structure provides a solid foundation for an e-commerce site, ready for further customization and backend integration to fully bring Beads n Beyond's online presence to life.",
-      technologies: ["Next.js", "React", "Tailwind CSS", "Lucide React", "Responsive Design", "E-commerce"],
-    },
+    }
   ]
 
   return (
