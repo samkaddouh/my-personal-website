@@ -1,6 +1,19 @@
 export default function Experience() {
     const experiences = [
       {
+        startDate: "April 2025",
+        endDate: "Present",
+        title: "Data Analyst",
+        company: "Four K Chemists LLC",
+        department: "Business Intelligence",
+        description:
+          "Designed and maintained automated data pipelines to centralize sales, inventory, and logistics data, enabling real-time visibility for operational and strategic decision-making. Built a client-facing dashboard for shipment tracking using live API data and role-based access control, and implemented backend logic to trigger automated email alerts for document requirements. Partnered with operations and leadership teams to align data tools with business workflows, improving transparency, speed, and client satisfaction.",
+        technologies: [
+          "Data Engineering", "ETL Pipelines", "API Integration", "Role-Based Access", "Automated Reporting", 
+          "Email Automation", "Python", "PostgreSQL", "React", "Node.js", "Seamless API", "Data Visualization"
+        ],
+      },
+      {
         startDate: "October 2024",
         endDate: "March 2025",
         title: "Software Engineer",
@@ -72,7 +85,7 @@ export default function Experience() {
       },
       
       {
-        startDate: "September 2021",
+        startDate: "July 2022",
         endDate: "February 2023",
         title: "Data Analyst & NLP Engineer",
         company: "Brunel University London",

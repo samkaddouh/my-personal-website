@@ -38,7 +38,7 @@ export default function Home() {
           </Link>
         </div>
         <Link
-          href="/sam-kadouh-cv.pdf"
+          href="/Sam_Kadouh_CV_07_2025_New.pdf"
           download
           className="flex items-center space-x-2 text-foreground hover:text-muted-foreground transition-colors"
         >
