@@ -2,7 +2,7 @@ export default function Experience() {
     const experiences = [
       {
         startDate: "April 2025",
-        endDate: "Present",
+        endDate: "December 2025",
         title: "Data Analyst",
         company: "Four K Chemists LLC",
         department: "Business Intelligence",
